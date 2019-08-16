@@ -11,14 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/mailingInfo"
-        android:textSize="24sp"/>
+        android:textSize="36sp"
+        android:gravity="center"
+        android:paddingTop="24dp"/>
 
     <TextView
         android:id="@+id/tvFirstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/first_name"
-        android:paddingTop="40dp"
+        android:textSize = "24sp"
+        android:gravity="center"
+        android:paddingTop="52dp"
         app:layout_constraintTop_toBottomOf="@id/tvTop"/>
 
     <TextView
@@ -26,6 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/last_name"
+        android:textSize = "24sp"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/tvFirstName"/>
 
     <TextView
@@ -33,6 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/address"
+        android:textSize = "24sp"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/tvLastName"/>
 
     <TextView
@@ -40,6 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/city"
+        android:textSize = "24sp"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/tvStreetAddress"/>
 
     <TextView
@@ -47,6 +57,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/state"
+        android:textSize = "24sp"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/tvCity"/>
 
     <TextView
@@ -54,6 +66,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/zip"
+        android:textSize = "24sp"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/tvState"/>
 
     <Button
